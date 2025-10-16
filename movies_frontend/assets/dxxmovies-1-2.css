@@ -1,0 +1,235 @@
+:root {
+  /* Colors from design system */
+  --color-1e1e1e: #1e1e1e;
+  --color-151515: #151515;
+  --color-ffffff: #ffffff;
+  --color-5b5b5b: #5b5b5b;
+  --color-272727: #272727;
+  --color-707070: #707070;
+  --color-ff0000: #ff0000;
+  --color-343434: #343434;
+  --color-656565: #656565;
+  --color-000000: #000000;
+  --color-6a6a6a: #6a6a6a;
+  --color-fb0000: #fb0000;
+  --color-3dff0d: #3dff0d;
+  --color-0066ff: #0066ff;
+  --color-042b5b: #042b5b;
+  --color-aaaaaa: #aaaaaa;
+  --color-888888: #888888;
+  --color-6c6c6c: #6c6c6c;
+  --color-605c5c: #605c5c;
+
+  /* Typography variables (typo_15..typo_30) */
+  --typo-15-family: 'Poppins', sans-serif;
+  --typo-15-size: 20px;
+  --typo-15-weight: 700;
+  --typo-15-line-height: 30px;
+  --typo-15-letter-spacing: 0;
+  --typo-15-color: var(--color-ffffff);
+
+  --typo-16-family: 'Poppins', sans-serif;
+  --typo-16-size: 15px;
+  --typo-16-weight: 300;
+  --typo-16-line-height: 22.5px;
+  --typo-16-letter-spacing: 0;
+  --typo-16-color: var(--color-707070);
+
+  --typo-17-family: 'Inter', sans-serif;
+  --typo-17-size: 12px;
+  --typo-17-weight: 500;
+  --typo-17-line-height: 10.2px;
+  --typo-17-letter-spacing: 0;
+  --typo-17-color: var(--color-ffffff);
+
+  --typo-18-family: 'Poppins', sans-serif;
+  --typo-18-size: 12px;
+  --typo-18-weight: 300;
+  --typo-18-line-height: 18px;
+  --typo-18-letter-spacing: 0;
+  --typo-18-color: var(--color-707070);
+
+  --typo-19-family: 'Poppins', sans-serif;
+  --typo-19-size: 12px;
+  --typo-19-weight: 600;
+  --typo-19-line-height: 12.54px;
+  --typo-19-letter-spacing: 0;
+  --typo-19-color: var(--color-ffffff);
+
+  --typo-20-family: 'Poppins', sans-serif;
+  --typo-20-size: 9px;
+  --typo-20-weight: 300;
+  --typo-20-line-height: 9.405px;
+  --typo-20-letter-spacing: 0;
+  --typo-20-color: var(--color-656565);
+
+  --typo-21-family: 'Poppins', sans-serif;
+  --typo-21-size: 36px;
+  --typo-21-weight: 700;
+  --typo-21-line-height: 30.6px;
+  --typo-21-letter-spacing: 0;
+  --typo-21-color: var(--color-ffffff);
+
+  --typo-22-family: 'Poppins', sans-serif;
+  --typo-22-size: 10px;
+  --typo-22-weight: 275;
+  --typo-22-line-height: 8.1px;
+  --typo-22-letter-spacing: 0.5px;
+  --typo-22-color: var(--color-ffffff);
+
+  --typo-23-family: 'Poppins', sans-serif;
+  --typo-23-size: 10px;
+  --typo-23-weight: 300;
+  --typo-23-line-height: 8.1px;
+  --typo-23-letter-spacing: 0.5px;
+  --typo-23-color: var(--color-6a6a6a);
+
+  --typo-24-family: 'Poppins', sans-serif;
+  --typo-24-size: 20px;
+  --typo-24-weight: 600;
+  --typo-24-line-height: 17px;
+  --typo-24-letter-spacing: 0;
+  --typo-24-color: var(--color-ffffff);
+
+  --typo-25-family: 'Poppins', sans-serif;
+  --typo-25-size: 14px;
+  --typo-25-weight: 600;
+  --typo-25-line-height: 11.34px;
+  --typo-25-letter-spacing: 0.7px;
+  --typo-25-color: var(--color-ffffff);
+
+  --typo-26-family: 'Poppins', sans-serif;
+  --typo-26-size: 14px;
+  --typo-26-weight: 300;
+  --typo-26-line-height: 11.34px;
+  --typo-26-letter-spacing: 0.7px;
+  --typo-26-color: var(--color-343434);
+
+  --typo-27-family: 'Poppins', sans-serif;
+  --typo-27-size: 14px;
+  --typo-27-weight: 600;
+  --typo-27-line-height: 11.34px;
+  --typo-27-letter-spacing: 0.7px;
+  --typo-27-color: var(--color-888888);
+
+  --typo-28-family: 'Poppins', sans-serif;
+  --typo-28-size: 11px;
+  --typo-28-weight: 300;
+  --typo-28-line-height: 8.91px;
+  --typo-28-letter-spacing: 0.55px;
+  --typo-28-color: var(--color-ffffff);
+
+  --typo-29-family: 'Poppins', sans-serif;
+  --typo-29-size: 15px;
+  --typo-29-weight: 300;
+  --typo-29-line-height: 12.15px;
+  --typo-29-letter-spacing: 0.75px;
+  --typo-29-color: var(--color-6c6c6c);
+
+  --typo-30-family: 'Plus Jakarta Sans', sans-serif;
+  --typo-30-size: 14px;
+  --typo-30-weight: 600;
+  --typo-30-line-height: 30px;
+  --typo-30-letter-spacing: 0;
+  --typo-30-color: var(--color-ffffff);
+
+  /* Shadows variables from design system */
+  --shadow-0: 0px 4px 128px -9px rgba(255,0,0,1);
+  --shadow-1: 0px 2px 12px 7px rgba(0,0,0,1);
+  --shadow-2: 0px -1px 28px 5px rgba(0,0,0,1);
+  --shadow-3: 1px 1px 14px 0px rgba(255,0,0,1);
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-1e1e1e);
+}
+.screen-root {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-1e1e1e);
+}
+.container { position: absolute; }
+.root-frame {
+  background-color: var(--color-1e1e1e);
+  border-radius: 18px;
+  box-shadow: var(--shadow-0);
+  overflow: visible;
+}
+.group { position: absolute; }
+.frame { position: relative; }
+.rectangle, .ellipse, .line, .text, .component, .image, .icon { position: absolute; }
+
+.image { display: block; }
+.image-cover { display: block; object-fit: cover; }
+
+.component-image { position: absolute; display: block; }
+.icon { image-rendering: -webkit-optimize-contrast; }
+
+/* Ellipse utility */
+.ellipse { border-radius: 50%; }
+
+/* Layout helper for horizontal containers */
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Styles resolution from design system styles */
+.style_1 { background-color: var(--color-151515); }
+.style_2 { /* background only if used as bg */ background-color: var(--color-ffffff); }
+.style_3 { /* icon stroke */ }
+.style_3 { outline: 2px solid var(--color-5b5b5b); outline-offset: -1px; }
+.style_4 { outline: 2px solid var(--color-ffffff); outline-offset: -1px; }
+.style_5 { background-color: var(--color-272727); border-radius: 12px; }
+.style_6 { outline: 2px solid var(--color-707070); outline-offset: -1px; }
+.style_7 { background-color: var(--color-707070); }
+.style_8 { background-color: var(--color-ff0000); }
+.style_9 { outline: 3px solid var(--color-ffffff); outline-offset: -1px; }
+.style_10 { background-color: var(--color-343434); border-radius: 13px; }
+.style_11 { border-radius: 10px; overflow: hidden; }
+.style_12 { background-color: var(--color-656565); }
+.style_13 { background-color: var(--color-000000); border-radius: 20px; }
+.style_14 { border-radius: 20px; overflow: hidden; }
+.style_15 { border-radius: 13px; overflow: hidden; }
+.style_16 { background-color: var(--color-6a6a6a); }
+.style_17 { background-color: var(--color-ff0000); border-radius: 10px; }
+.style_18 { background-color: var(--color-fb0000); }
+.style_19 { background-color: var(--color-3dff0d); }
+.style_20 { background-color: var(--color-0066ff); }
+.style_21 { background-color: var(--color-343434); }
+.style_22 { background-color: var(--color-042b5b); border-radius: 13px; }
+.style_23 { border-radius: 12px; overflow: hidden; }
+.style_24 { outline: 2px solid var(--color-aaaaaa); outline-offset: -1px; }
+.style_25 { background-color: var(--color-888888); }
+.style_26 { background-color: var(--color-6c6c6c); }
+.style_27 { background-color: var(--color-605c5c); border: 1px solid var(--color-ffffff); border-radius: 32px; }
+.style_28 { background-color: var(--color-1e1e1e); border-radius: 18px; box-shadow: var(--shadow-0); }
+.style_29 { background-color: var(--color-272727); border-radius: 12px; box-shadow: var(--shadow-1); }
+.style_30 { background-color: var(--color-343434); border-radius: 13px; box-shadow: var(--shadow-2); }
+.style_31 { background-color: var(--color-ff0000); border-radius: 10px; box-shadow: var(--shadow-3); }
+.style_32 { background-color: var(--color-042b5b); border-radius: 13px; box-shadow: var(--shadow-2); }
+
+/* Typography classes */
+.text { margin: 0; white-space: pre-wrap; color: var(--color-ffffff); }
+.typo_15 { font-family: var(--typo-15-family); font-size: var(--typo-15-size); font-weight: var(--typo-15-weight); line-height: var(--typo-15-line-height); letter-spacing: var(--typo-15-letter-spacing); color: var(--typo-15-color); }
+.typo_16 { font-family: var(--typo-16-family); font-size: var(--typo-16-size); font-weight: var(--typo-16-weight); line-height: var(--typo-16-line-height); letter-spacing: var(--typo-16-letter-spacing); color: var(--typo-16-color); }
+.typo_17 { font-family: var(--typo-17-family); font-size: var(--typo-17-size); font-weight: var(--typo-17-weight); line-height: var(--typo-17-line-height); letter-spacing: var(--typo-17-letter-spacing); color: var(--typo-17-color); }
+.typo_18 { font-family: var(--typo-18-family); font-size: var(--typo-18-size); font-weight: var(--typo-18-weight); line-height: var(--typo-18-line-height); letter-spacing: var(--typo-18-letter-spacing); color: var(--typo-18-color); }
+.typo_19 { font-family: var(--typo-19-family); font-size: var(--typo-19-size); font-weight: var(--typo-19-weight); line-height: var(--typo-19-line-height); letter-spacing: var(--typo-19-letter-spacing); color: var(--typo-19-color); }
+.typo_20 { font-family: var(--typo-20-family); font-size: var(--typo-20-size); font-weight: var(--typo-20-weight); line-height: var(--typo-20-line-height); letter-spacing: var(--typo-20-letter-spacing); color: var(--typo-20-color); }
+.typo_21 { font-family: var(--typo-21-family); font-size: var(--typo-21-size); font-weight: var(--typo-21-weight); line-height: var(--typo-21-line-height); letter-spacing: var(--typo-21-letter-spacing); color: var(--typo-21-color); }
+.typo_22 { font-family: var(--typo-22-family); font-size: var(--typo-22-size); font-weight: var(--typo-22-weight); line-height: var(--typo-22-line-height); letter-spacing: var(--typo-22-letter-spacing); color: var(--typo-22-color); }
+.typo_23 { font-family: var(--typo-23-family); font-size: var(--typo-23-size); font-weight: var(--typo-23-weight); line-height: var(--typo-23-line-height); letter-spacing: var(--typo-23-letter-spacing); color: var(--typo-23-color); }
+.typo_24 { font-family: var(--typo-24-family); font-size: var(--typo-24-size); font-weight: var(--typo-24-weight); line-height: var(--typo-24-line-height); letter-spacing: var(--typo-24-letter-spacing); color: var(--typo-24-color); }
+.typo_25 { font-family: var(--typo-25-family); font-size: var(--typo-25-size); font-weight: var(--typo-25-weight); line-height: var(--typo-25-line-height); letter-spacing: var(--typo-25-letter-spacing); color: var(--typo-25-color); }
+.typo_26 { font-family: var(--typo-26-family); font-size: var(--typo-26-size); font-weight: var(--typo-26-weight); line-height: var(--typo-26-line-height); letter-spacing: var(--typo-26-letter-spacing); color: var(--typo-26-color); }
+.typo_27 { font-family: var(--typo-27-family); font-size: var(--typo-27-size); font-weight: var(--typo-27-weight); line-height: var(--typo-27-line-height); letter-spacing: var(--typo-27-letter-spacing); color: var(--typo-27-color); }
+.typo_28 { font-family: var(--typo-28-family); font-size: var(--typo-28-size); font-weight: var(--typo-28-weight); line-height: var(--typo-28-line-height); letter-spacing: var(--typo-28-letter-spacing); color: var(--typo-28-color); }
+.typo_29 { font-family: var(--typo-29-family); font-size: var(--typo-29-size); font-weight: var(--typo-29-weight); line-height: var(--typo-29-line-height); letter-spacing: var(--typo-29-letter-spacing); color: var(--typo-29-color); }
+.typo_30 { font-family: var(--typo-30-family); font-size: var(--typo-30-size); font-weight: var(--typo-30-weight); line-height: var(--typo-30-line-height); letter-spacing: var(--typo-30-letter-spacing); color: var(--typo-30-color); }
